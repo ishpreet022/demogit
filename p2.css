@@ -19,15 +19,15 @@ body {
     height: 100%;
     width: 100%;
     overflow-y: scroll;
-overflow-x:hidden;
+    overflow-x:hidden;
     
 }
 .name{
     Line-Height:20px;
-    margin-right: 20px;
-    margin-left: 800px;
+    /*margin-right: 20px;*/
+    margin-left: 45%;
     margin-top: 180px;
-    width: 100%;
+    width: auto;
     
 }
 
@@ -54,41 +54,48 @@ overflow-x:hidden;
 .contain{
     position: absolute;
    top:140px;
-   left:250px;
+   left:15%;
   
 
 
 }
 .contain img {
     border-radius: 50%;
-    width: 250px;
+    width: 25%;
     height: 250px;
     
 }
-.male{
-    width:50%;
-}
+/*.male{
+    width:100%;
+}*/
   
   .mail a{
-    padding-left: 250px;
-    margin-top: 20px;
-    margin-left:450px;
+    padding-left: 220px;
+    margin-top: 16%;
+    margin-left:30%;
     
   }
   .mail h2{
       color: white;
       margin-top: 200px;
-    margin-left: 40%;
+   margin-left: 40%;
    
   }
   .mail button{
+    text-align: center;
+    
+    position: relative;
+    top: 1px;
       font-size: 25px;
-     
+ 
+      
   }
-   button:hover{
-       border: rgb(14, 4, 104);
-       background-color: rgb(14, 4, 104);
-color:white;
-font-size: 25px;
+
+   .mail button:hover{
+     
+       border : rgb(14, 4, 104);
+       background-color : rgb(14, 4, 104);
+color:white ;
+font-size : 25px;
 
   }
