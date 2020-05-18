@@ -1,0 +1,93 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+    color:white;
+    background-image: url('a.jpg');
+    
+    margin: 0;
+    padding: 0;
+   perspective: 1px;
+       transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.name{
+    Line-Height:20px;
+    margin-right: 20px;
+    margin-left: 800px;
+    margin-top: 180px;
+    width: 100%;
+    
+}
+
+
+    
+
+
+.container {
+   
+    position: absolute;
+    top: 100vh;
+    
+    background-color: rgba(252, 35, 154, 0.377);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: lighter;
+  margin: 50px;
+  padding:10px;
+    color:grey;
+        
+}
+
+
+.contain{
+    position: absolute;
+   top:140px;
+   left:250px;
+  
+
+
+}
+.contain img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    
+}
+.male{
+    width:50%;
+}
+  
+  .mail a{
+    padding-left: 250px;
+    margin-top: 20px;
+    margin-left:450px;
+    
+  }
+  .mail h2{
+      color: white;
+      margin-top: 200px;
+    margin-left: 40%;
+   
+  }
+  .mail button{
+      font-size: 25px;
+     
+  }
+   button:hover{
+       border: rgb(14, 4, 104);
+       background-color: rgb(14, 4, 104);
+color:white;
+font-size: 25px;
+
+  }
